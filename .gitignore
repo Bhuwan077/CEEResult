@@ -1,0 +1,37 @@
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/app/__pycache__/
+backend/app/routes/__pycache__/
+backend/app/utils/__pycache__/
+pdf-processor/__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Environment Secrets
+.env
+*.env
+!.env.example
+
+# Temporary Uploads (Original PDFs uploaded during tests)
+backend/uploads/*.pdf
+!backend/uploads/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
